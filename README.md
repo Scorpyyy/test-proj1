@@ -1,3 +1,4 @@
-# test-profile-1
+# test-proj1
+i'm practicing my coding while creating my portfolio
 
-im practicing my code while creating this proj
+-thankyou.
