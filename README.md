@@ -2,7 +2,7 @@
 i'm practicing my coding while creating my portfolio
 //learningshit!!! 
 
-heres the demo of what im working on --Click on your middle mouse--> [Github ->](https://scorpyyy.github.io/test-proj1/)
+heres the demo of what im working on -- [Click ur middle mouse (croll)](https://scorpyyy.github.io/test-proj1/)
 
 
 
