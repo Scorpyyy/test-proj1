@@ -2,7 +2,7 @@
 i'm practicing my coding while creating my portfolio
 //learningshit!!! 
 
-heres the demo that im still improving -- https://scorpyyy.github.io/test-proj1/
+heres the demo of what im working on -- https://scorpyyy.github.io/test-proj1/
 
 -thankyou.
 
