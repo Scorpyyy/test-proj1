@@ -1,24 +1,46 @@
 # test-proj1
-i'm practicing my coding while creating my portfolio
+> it doesn't matter.
+
+## |Bash| Pull & Push
+
+Pull:
+
+```sh
+git pull origin --rebase
+&
+git pull origin main
+```
+
+Push:
+
+```sh
+git push --all
+&
+git push -u origin [branch-name]
+```
+
+## Demo
+
+this is the demo of what im working on right now.
+
+_Pls use your middle mouse button (scroll) and click [This -->](https://scorpyyy.github.io/test-proj1/)._
+
+
+
+
+## update?
+
+i update this if i have time to code..
+my code free time is like
+
+```sh
+1-7 hrs
+```
+
+## ps.
+
 //learningshit!!! 
-
-heres the demo of what im working on -- [Click ur middle mouse (croll)](https://scorpyyy.github.io/test-proj1/)
-
-
-
-
-
-    |BASH| 
-        you can do the first "git pull origin --rebase" on bash
-        and the second one is "git pull origin main" on bash again
-
-
-    |Prefer|
-        but if you prefer the basic just do a "git pull origin main"
-
-    |Need Pull Req|
-        but if the vsc is requesting for pull u can do a "git pull origin --rebase" 
-                                                                -then "git pull origin main" on bash again
+Im still learning oki.. dont blame me if i have wrong in my code dkjfgnbfdkhjgbnidufgn 
 
 
 
