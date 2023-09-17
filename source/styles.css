@@ -320,7 +320,6 @@ span {
   left: .9%;
   position: absolute;
   display: flex;
-  justify-content: space-evenly;
   overflow: hidden;
 }
 
