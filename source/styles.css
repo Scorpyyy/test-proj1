@@ -331,7 +331,6 @@ span {
 .achievement-column .achievement-box {
   border-left: .2rem solid var(--main-color);
   flex: 1;
-  border-right: 2rem solid var(--main-color);
   border-top-right-radius: 1.6rem;
   border-bottom-right-radius: 1.6rem;
 }
@@ -343,6 +342,18 @@ span {
   justify-content: space-between; /* Space content evenly */
   align-items: center; /* Vertically center content */
 }
+/* this is the dots ============================================== dots ============================*/
+.achievement-box .achievement-content::before{
+  content: '';
+  position: absolute;
+  top: 17.5rem;
+  width: 3rem;
+  height: 3rem;
+  background: var(--main-color);
+  border-radius: 50%;
+  left: -1.4rem;
+
+}
 
 .achievement-content .content {
   position: relative;
@@ -351,6 +362,26 @@ span {
   border-radius: .6rem;
   margin-bottom: 2rem;
   flex: -1; /* Expand the paragraph to fill available space */
+  overflow: hidden;
+}
+
+.achievement-content .content::before{
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #17202A;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: .5s;
+}
+
+.achievement-content .content::before{
+  width: 44%;
+  height: 5rem;
+  border-bottom-right-radius: 1rem;
+
 }
 
 .achievement-content .year {
@@ -382,16 +413,21 @@ span {
 
 
 
-/* img of certificate style ---------------------------- */
+/* img of certificate style ---------------------------===================img================- */
 .achievement-content img {
-  max-width: 40%; /* Adjust the maximum width as needed */
+  content: '';
+  max-width: 30%; /* Adjust the maximum width as needed */
   max-height: auto;
   border-radius: 5rem;
   transition: transform 0.3s, filter 0.3s; /* Add filter to the transition */
   filter: blur(5px); /* Apply a blur effect initially */
-  border: .2px solid var(--main-color);
+  border: 2.5px solid var(--main-color);
   left: -100%;
+  transform: translate3d(-90px, 0px, 0px); /* (X, Y, Z) */
+  inset: -5px;
+  box-shadow: 10px 8px 10px 5px var(--background-color2);
 }
+
 
 /* Add a hover effect to scale the image slightly */
 .achievement-content img:hover {
