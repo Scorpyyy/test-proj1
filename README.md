@@ -23,6 +23,8 @@ git push -u origin [branch-name]
 
 this is the demo of what im working on right now.
 
+maybe theres bug or smth element that are not in the place i think its on your ratio of ur monitor im fixing it sooner
+
 _Pls use your middle mouse button (scroll) and click [This -->](https://scorpyyy.github.io/test-proj1/)._
 
 
